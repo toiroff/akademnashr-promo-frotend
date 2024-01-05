@@ -4,80 +4,92 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    /* tanlovchi {
+      xususiyat: qiymat; 
+    } */
+  </style>
 </head>
 <body>
-
-  <header>
-    <a href="index.html"><img src="img/logo.svg" alt="Akademnashr logosi" width="227" height="59.18" srcset="img/logo.png 1x, img/logo@2x.png 2x" ></a>
+  <header class="">
+  
+    <a class="logo" href="index.html"><img src="img/logo.svg" alt="Akademnashr logosi" width="227" height="59.18" srcset="img/logo.png 1x, img/logo@2x.png 2x" ></a>
     <nav>
       <ul>
-        <li><a href="#">Bosh sahida </a></li>
-        <li><a href="#">Kitoblar </a></li>
-        <li><a href="#">Aksiyalar </a></li>
+        <li><a class="sitenav-link" href="#">Bosh sahida </a></li>
+        <li><a class="sitenav-link" href="#">Kitoblar </a></li>
+        <li><a class="sitenav-link" href="#">Aksiyalar </a></li>
       </ul>
     </nav>
-    <a href="#">Ro'yhatdan o'tish</a>
+    <a class="main-link" class="signup" href="#" >Ro'yhatdan o'tish</a>
   </header>
 
   
   
 
   <main>
-    <section>
+    <section class="hero">
       <!-- HERO -->
       
-        <div>
-          <hr>
-          <h2>Python dasturlsh asoslari</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsum deserunt asperiores mollitia accusantium laborum nam quod, sapiente nihil aspernatur similique, labore officiis odit quam expedita eos est perferendis doloremque.</p>
-          <a href="#">Buyurtma berish</a>
+        <div class="hero-part">
+          <hr class="orange-line">
+          <h2 class="hero-heading" >Python dasturlsh asoslari</h2>
+          <p class="hero-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsum deserunt asperiores mollitia accusantium laborum nam quod, sapiente nihil aspernatur similique, labore officiis odit quam expedita eos est perferendis doloremque.</p>
+          <a class="main-link" href="#">Buyurtma berish</a>
         </div>
         
-        <img src="img/python-book.png" alt="Python kitobi" width="510" height="510" srcset="img/python-book.png 1x, img/python-book@2x.png 2x">
+        <img class="hero-img" src="img/python-book.png" alt="Python kitobi" width="510" height="510" srcset="img/python-book.png 1x, img/python-book@2x.png 2x">
      
     </section>
     
     <!-- FEATERS -->
-    <section>
-      <hr>
-      <h2>Nega aynan Akademnashr ?</h2>
+    <section class="featers">
+      <hr class="orange-line">
+      <h2 class="featers-heading">Nega aynan Akademnashr?</h2>
       
       <ul>
-        <img src="img/cursor-click.svg" alt=""  width="100" height="100" srcset="img/cursor-click.svg 1x, img/cursor-click@2x.svg 2x">
-        <li>
-          <h3>Oson buyurmta qilish</h3>
-          <p>Loremen</p>
+        <div class="feature-icon-wrapper">
+          <img src="img/cursor-click.svg" alt=""  width="100" height="100" srcset="img/cursor-click.svg 1x, img/cursor-click@2x.svg 2x">
+        </div>
+        <li  class="feature" >
+          <h3 class="feater-contet">Oson buyurmta qilish</h3>
+          <p class="feater-text">Akademnashr.uz saytidan o’zingizga yoqqan kitobni sodda usulda buyurtma qila olasiz.</p>
         </li>
-        <li>
-          <img src="img/sparkles.svg" alt="" width="100" height="100" srcset="img/sparkles.svg 1x, img/sparkles@2x.svg 2x">
-          <h3>Tez yetkazib berish</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, nesciunt corporis! Distinctio nisi mollitia optio ad fugiat voluptatem porro sapiente illum voluptates laboriosam fugit voluptatum, repudiandae sit adipisci impedit iusto.</p>
+        <li class="feature">
+          <div class="feature-icon-wrapper">
+            <img src="img/sparkles.svg" alt="" width="100" height="100" srcset="img/sparkles.svg 1x, img/sparkles@2x.svg 2x">
+          </div>
+          <h3 class="feater-contet">Tez yetkazib berish</h3>
+          <p class="feater-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, nesciunt corporis! Distinctio nisi mollitia optio ad fugiat voluptatem porro sapiente illum voluptates laboriosam fugit voluptatum, repudiandae sit adipisci impedit iusto.</p>
         </li>
-        <li>
-          <img src="img/lightning-bolt.svg" alt="" width="100" height="100" srcset="img/lightning-bolt.svg 1x, img/lightning-bolt@2x.svg 2x">
-          <h3>Eng sara kitonlar </h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, nesciunt corporis! Distinctio nisi mollitia optio ad fugiat voluptatem porro sapiente illum voluptates laboriosam fugit voluptatum, repudiandae sit adipisci impedit iusto.</p>
+        <li class="feature">
+          <div class="feature-icon-wrapper">
+            <img src="img/lightning-bolt.svg" alt="" width="100" height="100" srcset="img/lightning-bolt.svg 1x, img/lightning-bolt@2x.svg 2x">
+          </div>
+          <h3 class="feater-contet">Eng sara kitoblar </h3>
+          <p class="feater-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, nesciunt corporis! Distinctio nisi mollitia optio ad fugiat voluptatem porro sapiente illum voluptates laboriosam fugit voluptatum, repudiandae sit adipisci impedit iusto.</p>
         </li>
        
     
       </ul>
     </section>
     <!-- AKSIYA -->
-    <section>
-      <div>
-        <h2>Bolalar kitoblari uchun ajoyib aksiya</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos inventore maiores, totam dolorum eum libero, incidunt iure veritatis qui modi delectus vitae fuga adipisci, laboriosam <strong>ex nam fugit</strong> ipsa quam?</p>
-        <a href="#">Buyurtma berish</a>
+    <section class="promo">
+      <div class="promo-content">
+        <h2 class="promo-heading">Bolalar kitoblari uchun ajoyib aksiya</h2>
+        <p class="promo-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos inventore maiores, totam dolorum eum libero, incidunt iure veritatis qui modi delectus vitae fuga adipisci, laboriosam <strong class="promo-highlit">ex nam fugit</strong> ipsa quam?</p>
+        <a  class="main-link" href="#">Buyurtma berish</a>
       </div>
-      <img src="img/sale-img.png" alt="Kitoblar" width="440" height="440" srcset="img/sale-img.png 1x, img/sale-img@2x.png 2x">
+      <img class="promo-img" src="img/sale-img.png" alt="Kitoblar" width="440" height="440" srcset="img/sale-img.png 1x, img/sale-img@2x.png 2x">
     </section> 
   </main>
 
   
 
   <!-- SITE FOOTER  -->
-  <hr>
-  <footer>
+  <hr >
+  <footer class="site-footer">
     <div>
       <a href="index.html"><img src="img/logo.svg" alt="Akademnashr logosi" width="227" height="59.18" srcset="img/logo.png 1x, img/logo@2x.png 2x" ></a>
       <ul>
@@ -93,7 +105,7 @@
       </ul>
     </div>
     
-    <hr>
+    <hr class="site-footer-hr" >
     <!-- LIKS -->
     <!-- UNOREDED LIST -->
     <div>
@@ -102,6 +114,16 @@
         <li>Bosh sahifa</li>
         <li>Kitoblar</li>
         <li>Sotib olganlar</li>
+      </ul>
+      <ul>
+        <li>Ilm nashr</li>
+        <li>Ilmiy ommabop nashrlar</li>
+        <li>MA'rifiy nashrlar</li>
+        <li>Lug'atlar</li>
+      </ul>
+      <ul>
+        <li>Ko'p so'raladigan savollar</li>
+        <li>To'lov usullari</li>
       </ul>
     </div>
   </footer>
